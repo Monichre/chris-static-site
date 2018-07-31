@@ -1,0 +1,665 @@
+ 
+
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:0.99; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:0.99; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:0.99; } }
+ 
+.fade-in {
+    opacity:0;  
+    -webkit-animation:fadeIn ease-in 1;  
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+ 
+    -webkit-animation-fill-mode:forwards; 
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+ 
+    -webkit-animation-duration:0.3s;
+    -moz-animation-duration:0.3s;
+    animation-duration:0.3s;
+}
+ 
+.fade-in.one {
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.fade-in.two {
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay:1.2s;
+	animation-delay: 1.2s;
+}
+ 
+.fade-in.three {
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+
+.fade-in.four {
+	-webkit-animation-delay: 1.6s;
+	-moz-animation-delay: 1.6s;
+	animation-delay: 1.6s;
+}
+#supersized { 
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+	
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+
+#gallery_caption {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+	
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	animation-delay: 0.7s;
+}
+
+
+.animated1{
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated2{
+	-webkit-animation-delay: 0.4s;
+	-moz-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated3{
+	-webkit-animation-delay: 0.6s;
+	-moz-animation-delay: 0.6s;
+	animation-delay: 0.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated4{
+	-webkit-animation-delay: 0.8s;
+	-moz-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated5{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated6{
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	animation-delay: 1.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated7{
+	-webkit-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated8{
+	-webkit-animation-delay: 1.6s;
+	-moz-animation-delay: 1.6s;
+	animation-delay: 1.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated9{
+	-webkit-animation-delay: 1.8s;
+	-moz-animation-delay: 1.8s;
+	animation-delay: 1.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated10{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated11{
+	-webkit-animation-delay: 2.2s;
+	-moz-animation-delay: 2.2s;
+	animation-delay: 2.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated12{
+	-webkit-animation-delay: 2.4s;
+	-moz-animation-delay: 2.4s;
+	animation-delay: 2.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated13{
+	-webkit-animation-delay: 2.6s;
+	-moz-animation-delay: 2.6s;
+	animation-delay: 2.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated14{
+	-webkit-animation-delay: 2.8s;
+	-moz-animation-delay: 2.8s;
+	animation-delay: 2.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated15{
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated16{
+	-webkit-animation-delay: 3.2s;
+	-moz-animation-delay: 3.2s;
+	animation-delay: 3.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated17{
+	-webkit-animation-delay: 3.4s;
+	-moz-animation-delay: 3.4s;
+	animation-delay: 3.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated18{
+	-webkit-animation-delay: 3.6s;
+	-moz-animation-delay: 3.6s;
+	animation-delay: 3.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated19{
+	-webkit-animation-delay: 3.8s;
+	-moz-animation-delay: 3.8s;
+	animation-delay: 3.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated20{
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	animation-delay: 4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated21{
+	-webkit-animation-delay: 4.2s;
+	-moz-animation-delay: 4.2s;
+	animation-delay: 4.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated22{
+	-webkit-animation-delay: 4.4s;
+	-moz-animation-delay: 4.4s;
+	animation-delay: 4.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated23{
+	-webkit-animation-delay: 4.6s;
+	-moz-animation-delay: 4.6s;
+	animation-delay: 4.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated24{
+	-webkit-animation-delay: 4.8s;
+	-moz-animation-delay: 4.8s;
+	animation-delay: 4.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated25{
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	animation-delay: 5s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated26{
+	-webkit-animation-delay: 5.2s;
+	-moz-animation-delay: 5.2s;
+	animation-delay: 5.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated27{
+	-webkit-animation-delay: 5.4s;
+	-moz-animation-delay: 5.4s;
+	animation-delay: 5.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated28{
+	-webkit-animation-delay: 5.6s;
+	-moz-animation-delay: 5.6s;
+	animation-delay: 5.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated29{
+	-webkit-animation-delay: 5.8s;
+	-moz-animation-delay: 5.8s;
+	animation-delay: 5.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated30{
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	animation-delay: 6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated31{
+	-webkit-animation-delay: 6.2s;
+	-moz-animation-delay: 6.2s;
+	animation-delay: 6.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated32{
+	-webkit-animation-delay: 6.4s;
+	-moz-animation-delay: 6.4s;
+	animation-delay: 6.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated33{
+	-webkit-animation-delay: 6.6s;
+	-moz-animation-delay: 6.6s;
+	animation-delay: 6.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated34{
+	-webkit-animation-delay: 6.8s;
+	-moz-animation-delay: 6.8s;
+	animation-delay: 6.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated35{
+	-webkit-animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	animation-delay: 7s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated36{
+	-webkit-animation-delay: 7.2s;
+	-moz-animation-delay: 7.2s;
+	animation-delay: 7.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated37{
+	-webkit-animation-delay: 7.4s;
+	-moz-animation-delay: 7.4s;
+	animation-delay: 7.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated38{
+	-webkit-animation-delay: 7.6s;
+	-moz-animation-delay: 7.6s;
+	animation-delay: 7.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated39{
+	-webkit-animation-delay: 7.8s;
+	-moz-animation-delay: 7.8s;
+	animation-delay: 7.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated40{
+	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
+	animation-delay: 8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated41{
+	-webkit-animation-delay: 8.2s;
+	-moz-animation-delay: 8.2s;
+	animation-delay: 8.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated42{
+	-webkit-animation-delay: 8.4s;
+	-moz-animation-delay: 8.4s;
+	animation-delay: 8.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated43{
+	-webkit-animation-delay: 8.6s;
+	-moz-animation-delay: 8.6s;
+	animation-delay: 8.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated44{
+	-webkit-animation-delay: 8.8s;
+	-moz-animation-delay: 8.8s;
+	animation-delay: 8.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated45{
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	animation-delay: 9s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated46{
+	-webkit-animation-delay: 9.2s;
+	-moz-animation-delay: 9.2s;
+	animation-delay: 9.2s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated47{
+	-webkit-animation-delay: 9.4s;
+	-moz-animation-delay: 9.4s;
+	animation-delay: 9.4s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated48{
+	-webkit-animation-delay: 9.6s;
+	-moz-animation-delay: 9.6s;
+	animation-delay: 9.6s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated49{
+	-webkit-animation-delay: 9.8s;
+	-moz-animation-delay: 9.8s;
+	animation-delay: 9.8s;
+}
+body
+{
+	overflow-x :hidden;
+}
+.animated50{
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	animation-delay: 10s;
+}
+body
+{
+	overflow-x :hidden;
+}
+
+body { background: url('../images/patterns/ps_neutral_%402X.png') repeat; }
+
+.post_header h2, h1, h2, h3, h4, h5, h6, h7, #page_caption h1, #page_content_wrapper .sidebar .content .sidebar_widget li h2, #contact_form label, #commentform label, #page_content_wrapper .sidebar .content .sidebar_widget li h2.widgettitle, h2.widgettitle, .post_date, .pagination span, .pagination a:hover, #page_caption h2
+{
+	color: #333333 !important;
+}
+
+body { font-size:16px; }
+
+#menu_wrapper .nav ul li a, #menu_wrapper div .nav li a { font-size:16px; }
+
+#menu_wrapper .nav ul li ul li a, #menu_wrapper div .nav li ul li a, #menu_wrapper div .nav li.current-menu-parent ul li a { font-size:13px; }
+
+#page_caption h1, #page_caption h2 { font-size:26px; }
+
+h1 { font-size:34px; }
+
+h2 { font-size:32px; }
+
+h3 { font-size:28px; }
+
+h4 { font-size:24px; }
+
+h5 { font-size:20px; }
+
+h6 { font-size:16px; }
+
+#gallery_caption h2 { font-size:28px; }
+
+a { color:#888888; }
+
+#page_content_wrapper a:hover, #page_content_wrapper a:active, .color, a.comment-reply-link { color:#1abc9c; }
+blockquote { border-color:#1abc9c; }
+
+#page_content_wrapper .inner .sidebar_wrapper .sidebar .content { color:#888888; }
+
+#page_content_wrapper .inner .sidebar_wrapper a { color:#888888; }
+
+#page_content_wrapper .inner .sidebar_wrapper a:hover, #page_content_wrapper .inner .sidebar_wrapper a:active { color:#1abc9c; }
+
+#footer { color:#888888; }
+
+#footer a { color:#888888; }
+
+#footer a:hover, #footer a:active { color:#1abc9c; }
+
+input[type=submit], input[type=button], a.button, .button, #toTop:hover, .filter li a.active, .filter li a:hover, .shop_filter li a.active, .shop_filter li a:hover { 
+	background: #1abc9c;
+}
+.widget_tag_cloud div a:hover, .meta-tags a:hover, #footer .widget_tag_cloud div a:hover, #footer .meta-tags a:hover, .tag_cloud a:hover, .woocommerce ul.products li.product a.add_to_cart_button, .woocommerce-page ul.products li.product a.add_to_cart_button, .woocommerce ul.products li.product a.add_to_cart_button.loading, .woocommerce-page ul.products li.product a.add_to_cart_button.loading, .woocommerce ul.products li.product a.add_to_cart_button:hover, .woocommerce-page ul.products li.product a.add_to_cart_button:hover, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button, .woocommerce .widget_shopping_cart .widget_shopping_cart_content a.button, .woocommerce table.cart td.actions .button.alt.checkout-button, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order, .woocommerce table.cart td.actions .button.alt {
+	background: #1abc9c !important;
+}
+
+input[type=submit], input[type=button], a.button, .button, .filter li a.active, .filter li a:hover, .shop_filter li a.active, .shop_filter li a:hover { 
+	color: #ffffff !important;
+}
+input[type=submit]:hover, input[type=button]:hover, a.button:hover, .button:hover
+{
+	color: #ffffff !important;
+}
+.widget_tag_cloud div a:hover, .meta-tags a:hover, #footer .widget_tag_cloud div a:hover, #footer .meta-tags a:hover, .tag_cloud a:hover, .woocommerce ul.products li.product a.add_to_cart_button, .woocommerce-page ul.products li.product a.add_to_cart_button, .woocommerce ul.products li.product a.add_to_cart_button.loading, .woocommerce-page ul.products li.product a.add_to_cart_button.loading, .woocommerce ul.products li.product a.add_to_cart_button:hover, .woocommerce-page ul.products li.product a.add_to_cart_button:hover, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button, .woocommerce .widget_shopping_cart .widget_shopping_cart_content a.button, .woocommerce table.cart td.actions .button.alt.checkout-button, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order, .woocommerce table.cart td.actions .button.alt {
+	color: #ffffff !important;
+}
+
+input[type=submit], input[type=button], a.button, .button, .filter li a.active, .filter li a:hover, .shop_filter li a.active, .shop_filter li a:hover { 
+	border: 1px solid #1abc9c;
+}
+.widget_tag_cloud div a:hover, .meta-tags a:hover, #footer .widget_tag_cloud div a:hover, #footer .meta-tags a:hover, .tag_cloud a:hover {
+	border: 1px solid #1abc9c !important;
+}
+
+.post_header h2, h1, h2, h3, h4, h5, .portfolio_header h6, pre, code, tt
+{
+	color: #333333;
+}
+h1, h2, h3, h4, h5, h6, h7, #gallery_caption h2, #menu_wrapper .nav ul li a, #menu_wrapper div .nav li a, #copyright, .fancybox-title-outside-wrap, .filter li a, .shop_filter li a, #imageFlow .title, #contact_form label { font-family: 'Oswald' !important; }		
+#menu_wrapper .nav ul li a, #menu_wrapper div .nav li a { color: #b1b1b1; }
+#menu_wrapper div .nav li ul li a, #menu_wrapper div .nav li.current-menu-item ul li a, #menu_wrapper div .nav li ul li.current-menu-item a, #menu_wrapper .nav ul li ul li a, #menu_wrapper .nav ul li.current-menu-item ul li a, #menu_wrapper .nav ul li ul li.current-menu-item a, #menu_wrapper div .nav li.current-menu-parent ul li a, #menu_wrapper div .nav li ul li.current-menu-parent a { color: #b1b1b1;  }
+#menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper div .nav li a.hover, #menu_wrapper div .nav li a:hover, #menu_wrapper .nav ul li ul li a:hover, #menu_wrapper .nav ul li ul li a:hover, #menu_wrapper div .nav li ul li a:hover, #menu_wrapper div .nav li ul li a:hover, #menu_wrapper div .nav li.current-menu-item ul li a:hover, #menu_wrapper div .nav li.current-menu-parent ul li a:hover { color: #333333;  }
+#menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper div .nav li a.hover, #menu_wrapper div .nav li a:hover, #menu_wrapper div .nav li.current-menu-item > a, #menu_wrapper div .nav li.current-menu-parent > a, #menu_wrapper div .nav li.current-menu-ancestor > a, #menu_wrapper div .nav li ul li.current-menu-ancestor a
+{
+	border-color: #333333;
+}
+#menu_wrapper div .nav li.current-menu-item > a, #menu_wrapper div .nav li.current-menu-parent > a, #menu_wrapper div .nav li.current-menu-ancestor > a { color: #333333;  }
+#menu_wrapper div .nav li.current-menu-item > a, #menu_wrapper div .nav li.current-menu-parent > a, #menu_wrapper div .nav li.current-menu-ancestor > a { border-color: #333333; }
+body { color: #888888; }
+
+.top_bar
+{
+	background: #ffffff;
+}
+
+.top_bar
+{
+	background: #ffffff;
+	background: rgb(255, 255, 255, 0.95);
+	background: rgba(255, 255, 255, 1);
+}
+
+#menu_wrapper .nav ul li ul, #menu_wrapper div .nav li ul
+{
+	background: #ffffff;
+	background: rgb(255, 255, 255, 0.95);
+	background: rgba(255, 255, 255, 0.95);
+}
+
+#menu_wrapper div .nav li ul li a, #menu_wrapper div .nav li.current-menu-item ul li a, #menu_wrapper div .nav li ul li.current-menu-item a,#menu_wrapper .nav ul li ul li a, #menu_wrapper .nav ul li.current-menu-item ul li a, #menu_wrapper .nav ul li ul li.current-menu-item a, #menu_wrapper div .nav li.current-menu-parent ul li a, #menu_wrapper div .nav li ul li.current-menu-parent a, #menu_wrapper .nav ul li ul li a, #menu_wrapper div .nav li ul li a, #menu_wrapper div .nav li.current-menu-parent ul li a, #menu_wrapper .nav ul li ul li a:hover, #menu_wrapper .nav ul li ul li a:hover, #menu_wrapper div .nav li ul li a:hover, #menu_wrapper div .nav li ul li a:hover, #menu_wrapper div .nav li.current-menu-item ul li a:hover, #menu_wrapper div .nav li.current-menu-parent ul li a:hover
+{
+	border-color: #ffffff;
+}
+
+#menu_wrapper .nav ul li ul li a:hover, #menu_wrapper .nav ul li ul li a:hover, #menu_wrapper div .nav li ul li a:hover, #menu_wrapper div .nav li ul li a:hover, #menu_wrapper div .nav li.current-menu-item ul li a:hover, #menu_wrapper div .nav li.current-menu-parent ul li a:hover
+{
+	color: #333333;
+}
+
+.one_half.gallery2 .mask .button.circle, .one_third.gallery3 .mask .button.circle, .one_fourth.gallery4 .mask .button.circle, .wall_thumbnail .mask .button.circle, .mansory_thumbnail .mask .button.circle
+{
+	background: #1abc9c !important;
+	border-color: #1abc9c;
+}
+
+.one_half.gallery2 h4, .one_half.gallery2 span.caption, .one_third.gallery3 h5, .one_third.gallery3 span.caption, .one_fourth.gallery4 h6, .one_fourth.gallery4 span.caption, .wall_thumbnail h6, .wall_thumbnail span.caption, .mansory_thumbnail h6, .mansory_thumbnail span.caption
+{
+	color: #999999;
+}
+
+h1{
+ font-size:15pt;
+}
